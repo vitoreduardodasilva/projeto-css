@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo CSS</title>
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CSS Interno -->
+    <style>
+        /* Seletor de elemento */
+        h2 {
+            color: blue;
+        }
+
+        /* Seletor universal */
+        * {
+            font-family: Arial;
+        }
+
+        /* Seletor de atributo */
+        input[type="text"] {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: red;">CSS Inline (vermelho)</h1>
+
+    <h2>CSS Interno (azul)</h2>
+
+    <p class="classe">Seletor de classe</p>
+
+    <p id="id">Seletor de ID</p>
+
+    <input type="text" placeholder="Seletor de atributo">
+
+</body>
+</html>
