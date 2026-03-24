@@ -1,0 +1,9 @@
+/* Seletor de classe */
+.classe {
+    color: green;
+}
+
+/* Seletor de ID */
+#id {
+    color: purple;
+}
